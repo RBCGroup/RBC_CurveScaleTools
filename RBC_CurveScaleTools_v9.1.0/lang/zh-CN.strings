@@ -1,0 +1,38 @@
+RBC_CurveScaleTools<==>RBC_曲线干扰工具
+Curve Scale<==>曲线干扰
+OK<==>确定
+Cancel<==>退出
+Near small ambitious<==>近小远大
+Near the small<==>近大远小
+Axis Origin<==>轴原点
+Local Axis Origin<==>组件坐标轴
+Bottom Center<==>底部中心
+Center<==>中心
+Align Origin<==>对齐点
+MIN<==>最小值
+MAX<==>最大值
+Type<==>类型
+Control Mode<==>控制方式
+Crest distance<==>波峰距离
+Trough distance<==>波谷距离
+plance select components or groups!!!<==>请选择一些群组或组件!!!
+plance select edges cpoints or curves!!!<==>请选择一些线、曲线、构造点!!!
+Please input control parameters!<==>请输入控制参数！
+Sets the parameter above the maximum control range. Does the recommended value apply?<==>设置参数超过最大控制范围，是否采用推荐值？
+MOVE_Z<==>Z轴移动
+MOVE_Y<==>Y轴移动
+MOVE_X<==>X轴移动
+ROTATE_Z<==>Z轴旋转
+ROTATE_Y<==>Y轴旋转
+ROTATE_X<==>X轴旋转
+SCALE_Z<==>Z轴缩放
+SCALE_Y<==>Y轴缩放
+SCALE_X<==>X轴缩放
+SCALE_XYZ<==XYZ轴缩放
+Get the recommended distance<==>获取建议值
+Random operation<==>随机操作
+CurveScale Tools.<==>曲线干扰工具.
+Random<==>随机
+SCALE_XYZ<==>XYZ轴缩放
+Unified Operation<==>批量操作
+Value<==>值

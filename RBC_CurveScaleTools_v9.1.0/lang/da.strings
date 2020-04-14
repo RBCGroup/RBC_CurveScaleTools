@@ -1,0 +1,35 @@
+RBC_CurveScaleTools<==>RBC_CurveScaleTools
+Curve Scale<==>kurve omfang
+OK<==>OK
+Cancel<==>aflys
+Near small ambitious<==>i nærheden af mindre ambitiøs
+Near the small<==>i nærheden af små
+Axis Origin<==>akse oprindelse
+Local Axis Origin<==>lokale akse oprindelse
+Bottom Center<==>nederste center
+Center<==>Center
+Align Origin<==>tilpasse oprindelse
+MIN<==>min.
+MAX<==>MAX
+Type<==>Type
+Control Mode<==>funktionsmåde
+Crest distance<==>crest afstand
+Trough distance<==>laveste afstand
+plance select components or groups!!!<==>til industriel brug udvælge komponenter eller grupper.!!
+plance select edges cpoints or curves!!!<==>til industriel brug udvælge kanter cpoints eller kurver.!!
+Please input control parameters!<==>- indgående kontrol af parametre.
+Sets the parameter above the maximum control range. Does the recommended value apply?<==>sæt den parameter, over den maksimale arbejdsområde.er den anbefalede værdi anvendes?
+MOVE_Z<==>MOVE_Z
+MOVE_Y<==>MOVE_Y
+MOVE_X<==>MOVE_X
+ROTATE_Z<==>ROTATE_Z
+ROTATE_Y<==>ROTATE_Y
+ROTATE_X<==>ROTATE_X
+SCALE_Z<==>SCALE_Z
+SCALE_Y<==>SCALE_Y
+SCALE_X<==>SCALE_X
+SCALE_XYZ<==>SCALE_XYZ
+Get the recommended distance<==>få den anbefalede afstand
+Random operation<==>vilkårlige forvaltning
+CurveScale Tools.<==>curvescale værktøj.
+Random<==>tilfældige

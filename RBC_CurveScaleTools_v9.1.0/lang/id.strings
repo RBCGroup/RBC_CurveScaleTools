@@ -1,0 +1,35 @@
+RBC_CurveScaleTools<==>RBC_CurveScaleTools
+Curve Scale<==>Kurva skala
+OK<==>Oke
+Cancel<==>Batal
+Near small ambitious<==>Dekat kecil ambisius
+Near the small<==>Dekat kecil
+Axis Origin<==>AXIS asal
+Local Axis Origin<==>Asal lokal Axis
+Bottom Center<==>Tengah bawah
+Center<==>Pusat
+Align Origin<==>Menyelaraskan asal
+MIN<==>MIN
+MAX<==>MAX
+Type<==>Jenis
+Control Mode<==>Mode kontrol
+Crest distance<==>Crest jarak
+Trough distance<==>Palung jarak
+plance select components or groups!!!<==>plance memilih komponen atau grup!
+plance select edges cpoints or curves!!!<==>plance pilih cpoints tepi atau kurva!
+Please input control parameters!<==>Silakan masukkan parameter kontrol!
+Sets the parameter above the maximum control range. Does the recommended value apply?<==>Menetapkan parameter di atas kisaran kontrol yang maksimum. Apakah nilai direkomendasikan berlaku?
+MOVE_Z<==>MOVE_Z
+MOVE_Y<==>MOVE_Y
+MOVE_X<==>MOVE_X
+ROTATE_Z<==>ROTATE_Z
+ROTATE_Y<==>ROTATE_Y
+ROTATE_X<==>ROTATE_X
+SCALE_Z<==>SCALE_Z
+SCALE_Y<==>SCALE_Y
+SCALE_X<==>SCALE_X
+SCALE_XYZ<==>SCALE_XYZ
+Get the recommended distance<==>Mendapatkan jarak yang dianjurkan
+Random operation<==>Operasi acak
+CurveScale Tools.<==>Alat CurveScale.
+Random<==>Acak

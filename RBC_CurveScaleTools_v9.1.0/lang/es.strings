@@ -1,0 +1,35 @@
+RBC_CurveScaleTools<==>RBC_CurveScaleTools
+Curve Scale<==>Escala de curva
+OK<==>Vale
+Cancel<==>Cancelar
+Near small ambitious<==>Cerca de pequeño ambicioso
+Near the small<==>Cerca de la pequeña
+Axis Origin<==>Origen del eje
+Local Axis Origin<==>Origen del eje local
+Bottom Center<==>Centro inferior
+Center<==>Centro
+Align Origin<==>Alinear origen
+MIN<==>Min
+MAX<==>Max
+Type<==>Tipo
+Control Mode<==>Modo de control
+Crest distance<==>Distancia de cresta
+Trough distance<==>Distancia del canal
+plance select components or groups!!!<==>Plance seleccionar componentes o grupos!!!
+plance select edges cpoints or curves!!!<==>Plance seleccionar aristas cpoints o curvas!!!
+Please input control parameters!<==>¡ Por favor, introduzca parámetros de control!
+Sets the parameter above the maximum control range. Does the recommended value apply?<==>Establece el parámetro por encima del rango de control máximo. ¿Se aplica el valor recomendado?
+MOVE_Z<==>MOVE_Z
+MOVE_Y<==>MOVE_Y
+MOVE_X<==>MOVE_X
+ROTATE_Z<==>ROTATE_Z
+ROTATE_Y<==>ROTATE_Y
+ROTATE_X<==>ROTATE_X
+SCALE_Z<==>SCALE_Z
+SCALE_Y<==>SCALE_Y
+SCALE_X<==>SCALE_X
+SCALE_XYZ<==>SCALE_XYZ
+Get the recommended distance<==>Obtener la distancia recomendada
+Random operation<==>Operación aleatoria
+CurveScale Tools.<==>Herramientas CurveScale.
+Random<==>Aleatorio

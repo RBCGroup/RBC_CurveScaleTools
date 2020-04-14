@@ -1,0 +1,35 @@
+RBC_CurveScaleTools<==>RBC_CurveScaleTools
+Curve Scale<==>مقياس المنحني
+OK<==>موافق
+Cancel<==>إلغاء الأمر
+Near small ambitious<==>بالقرب من طموح صغير
+Near the small<==>بالقرب من الصغيرة
+Axis Origin<==>محور المنشا
+Local Axis Origin<==>أصل المحور المحلي
+Bottom Center<==>مركز القاع
+Center<==>مركز
+Align Origin<==>محاذاة الأصل
+MIN<==>دقيقه
+MAX<==>ماكس
+Type<==>نوع
+Control Mode<==>وضع التحكم
+Crest distance<==>قمة المسافة
+Trough distance<==>الحوض المسافة
+plance select components or groups!!!<==>plance تحديد المكونات أو المجموعات!!!
+plance select edges cpoints or curves!!!<==>plance تحديد حواف نقاط أو منحنيات!!!
+Please input control parameters!<==>الرجاء إدخال معلمات التحكم!
+Sets the parameter above the maximum control range. Does the recommended value apply?<==>تعيين المعلمة اعلي نطاق التحكم الأقصى. هل تنطبق القيمة الموصي بها ؟
+MOVE_Z<==>MOVE_Z
+MOVE_Y<==>MOVE_Y
+MOVE_X<==>MOVE_X
+ROTATE_Z<==>ROTATE_Z
+ROTATE_Y<==>ROTATE_Y
+ROTATE_X<==>ROTATE_X
+SCALE_Z<==>SCALE_Z
+SCALE_Y<==>SCALE_Y
+SCALE_X<==>SCALE_X
+SCALE_XYZ<==>SCALE_XYZ
+Get the recommended distance<==>الحصول علي المسافة الموصي بها
+Random operation<==>عمليه عشوائية
+CurveScale Tools.<==>أدوات كورفيسكالي.
+Random<==>عشوائيه

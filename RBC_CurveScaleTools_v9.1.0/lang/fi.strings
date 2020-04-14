@@ -1,0 +1,35 @@
+RBC_CurveScaleTools<==>RBC_CurveScaleTools
+Curve Scale<==>käyrä laajuus
+OK<==>-
+Cancel<==>peruuta
+Near small ambitious<==>lähellä pienet kunnianhimoinen
+Near the small<==>lähellä on pieni
+Axis Origin<==>akselin alkuperä
+Local Axis Origin<==>paikalliset akselin alkuperä
+Bottom Center<==>pohja - keskus
+Center<==>keskus.
+Align Origin<==>on yhdenmukaistettava alkuperä
+MIN<==>MIN
+MAX<==>MAX
+Type<==>tyyppi
+Control Mode<==>toimintatavan
+Crest distance<==>crest etäisyys
+Trough distance<==>tämän matkan
+plance select components or groups!!!<==>plance valita osia tai ryhmiä.!
+plance select edges cpoints or curves!!!<==>plance valita reunat cpoints tai käyrät!!
+Please input control parameters!<==>pyydän tallentamisen valvonta parametrit.
+Sets the parameter above the maximum control range. Does the recommended value apply?<==>vahvistetaan parametrit ylittävät enimmäismäärän valvonta - alueelle.onko suositusarvo sovelletaan?
+MOVE_Z<==>MOVE_Z
+MOVE_Y<==>MOVE_Y
+MOVE_X<==>MOVE_X
+ROTATE_Z<==>ROTATE_Z
+ROTATE_Y<==>ROTATE_Y
+ROTATE_X<==>ROTATE_X
+SCALE_Z<==>SCALE_Z
+SCALE_Y<==>SCALE_Y
+SCALE_X<==>SCALE_X
+SCALE_XYZ<==>SCALE_XYZ
+Get the recommended distance<==>- suositeltu etäisyys
+Random operation<==>satunnainen käyttö
+CurveScale Tools.<==>curvescale työkaluja.
+Random<==>satunnainen

@@ -1,0 +1,35 @@
+RBC_CurveScaleTools<==>RBC_CurveScaleTools
+Curve Scale<==>カーブスケール
+OK<==>わかりました
+Cancel<==>キャンセル
+Near small ambitious<==>近くの小さな野心的な
+Near the small<==>近くの小さな
+Axis Origin<==>軸の原点
+Local Axis Origin<==>ローカル軸の原点
+Bottom Center<==>ボトムセンター
+Center<==>センター
+Align Origin<==>原点の整列
+MIN<==>分
+MAX<==>最大
+Type<==>型
+Control Mode<==>制御モード
+Crest distance<==>クレストの距離
+Trough distance<==>トラフ距離
+plance select components or groups!!!<==>plance コンポーネントまたはグループを選択し!!!
+plance select edges cpoints or curves!!!<==>plance エッジ cpoints またはカーブを選択し!!!
+Please input control parameters!<==>制御パラメータを入力してください!
+Sets the parameter above the maximum control range. Does the recommended value apply?<==>最大制御範囲の上にパラメータを設定します。推奨値は適用されますか。
+MOVE_Z<==>MOVE_Z
+MOVE_Y<==>MOVE_Y
+MOVE_X<==>MOVE_X
+ROTATE_Z<==>ROTATE_Z
+ROTATE_Y<==>ROTATE_Y
+ROTATE_X<==>ROTATE_X
+SCALE_Z<==>SCALE_Z
+SCALE_Y<==>SCALE_Y
+SCALE_X<==>SCALE_X
+SCALE_XYZ<==>SCALE_XYZ
+Get the recommended distance<==>推奨される距離を取得する
+Random operation<==>ランダム操作
+CurveScale Tools.<==>CurveScale ツール。
+Random<==>ランダム

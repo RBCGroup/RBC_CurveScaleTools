@@ -1,0 +1,35 @@
+RBC_CurveScaleTools<==>Рбк_курвескалетулс
+Curve Scale<==>Масштаб кривой
+OK<==>Хорошо
+Cancel<==>Отмена
+Near small ambitious<==>Рядом с небольшим амбициозным
+Near the small<==>Рядом с небольшим
+Axis Origin<==>Начало координат оси
+Local Axis Origin<==>Происхождение локальной оси
+Bottom Center<==>Нижний центр
+Center<==>Центр
+Align Origin<==>Выравнивание исходной точки
+MIN<==>Мин
+MAX<==>Макс
+Type<==>Тип
+Control Mode<==>Режим управления
+Crest distance<==>Расстояние гребня
+Trough distance<==>Расстояние корыта
+plance select components or groups!!!<==>plance выбрать компоненты или группы!!!
+plance select edges cpoints or curves!!!<==>plance выбрать ребра точки соединения или кривые!!!
+Please input control parameters!<==>Пожалуйста, введите параметры управления!
+Sets the parameter above the maximum control range. Does the recommended value apply?<==>Задает параметр выше максимального диапазона управления. Применяется ли рекомендуемое значение?
+MOVE_Z<==>МОВЕ_З
+MOVE_Y<==>МОВЕ_И
+MOVE_X<==>МОВЕ_КС
+ROTATE_Z<==>РОТАТЕ_З
+ROTATE_Y<==>РОТАТЕ_И
+ROTATE_X<==>ROTATE_X
+SCALE_Z<==>СКАЛЕ_З
+SCALE_Y<==>СКАЛЕ_И
+SCALE_X<==>СКАЛЕ_КС
+SCALE_XYZ<==>СКАЛЕ_КСИЗ
+Get the recommended distance<==>Получить рекомендуемое расстояние
+Random operation<==>Случайная операция
+CurveScale Tools.<==>Курвескале инструменты.
+Random<==>Случайных

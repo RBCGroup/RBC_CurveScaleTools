@@ -1,0 +1,35 @@
+RBC_CurveScaleTools<==>RBC_CurveScaleTools
+Curve Scale<==>โค้งขนาด
+OK<==>โอเค
+Cancel<==>ยกเลิก
+Near small ambitious<==>ใกล้ๆที่ทะเยอทะยาน
+Near the small<==>ใกล้ขนาดเล็ก
+Axis Origin<==>ประเทศฝ่ายอักษะ
+Local Axis Origin<==>ท้องถิ่นของแกน
+Bottom Center<==>กลางล่าง
+Center<==>ศูนย์
+Align Origin<==>ตำแหน่งกำเนิด
+MIN<==>มิน
+MAX<==>แม็กซ์
+Type<==>ประเภท
+Control Mode<==>โหมดควบคุม
+Crest distance<==>ยอด ระยะทาง
+Trough distance<==>ระยะทางโดย
+plance select components or groups!!!<==>plance เลือกส่วนประกอบ หรือกลุ่ม ! ! ! ! ! ! !
+plance select edges cpoints or curves!!!<==>plance เลือกขอบ cpoints หรือโค้ง ! ! ! ! ! ! ! !
+Please input control parameters!<==>กรุณาป้อนพารามิเตอร์ควบคุม !
+Sets the parameter above the maximum control range. Does the recommended value apply?<==>ชุดพารามิเตอร์สูงกว่าช่วงควบคุมสูงสุด ไม่แนะนำค่าสมัคร
+MOVE_Z<==>MOVE_Z
+MOVE_Y<==>MOVE_Y
+MOVE_X<==>MOVE_X
+ROTATE_Z<==>ROTATE_Z
+ROTATE_Y<==>ROTATE_Y
+ROTATE_X<==>ROTATE_X
+SCALE_Z<==>SCALE_Z
+SCALE_Y<==>SCALE_Y
+SCALE_X<==>SCALE_X
+SCALE_XYZ<==>SCALE_XYZ
+Get the recommended distance<==>รับการแนะนำ ระยะทาง
+Random operation<==>การสุ่ม
+CurveScale Tools.<==>เครื่องมือ curvescale .
+Random<==>แบบสุ่ม

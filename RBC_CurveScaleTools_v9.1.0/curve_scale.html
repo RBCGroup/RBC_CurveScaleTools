@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>RBC Curve Scale Tools</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/DialogProxy.js"></script>
+    <style>
+        * {
+            font-family: "Microsoft YaHei", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: normal;
+        }
+
+        .input-group-addon {
+            width: 120px;
+            text-align: right;
+        }
+
+        .input-group {
+            width: 100% !important;
+            height: 34px;
+        }
+
+        .input-group-addon:first-child {
+            border-right: 1px solid #ccc
+        }
+
+        ._btn {
+            padding: 2px 33px;
+            font-size: 12px;
+        }
+
+    </style>
+</head>
+<body style="background: #eee">
+<div style="padding:10px;background:#eee;">
+    <div class="form-group">
+        <div class="input-group">
+            <div id="l_type" class="language_html  input-group-addon">Type</div>
+            <select id="type" class="input-group selectpicker" title="Please Selected">
+            </select>
+        </div>
+        <div class="input-group">
+            <div class="language_html input-group-addon">Crest distance</div>
+            <input type="text" class="form-control" id="c_max">
+            <div class="input-group-addon">
+                <button id="getRD" class="language_html _btn btn btn-default">Get the recommended distance</button>
+            </div>
+        </div>
+        <div class="input-group">
+            <div class="language_html input-group-addon">Trough distance</div>
+            <input type="text" class="form-control" id="c_min">
+        </div>
+        <div class="input-group">
+            <div id="l_max" class="language_html input-group-addon">MAX</div>
+            <input type="text" class="form-control" id="max">
+        </div>
+        <div class="input-group">
+            <div id="l_min" class="language_html input-group-addon">MIN</div>
+            <input type="text" class="form-control" id="min">
+        </div>
+        <div class="input-group">
+            <div class="language_html input-group-addon">Align Origin</div>
+            <div>
+                <div style="margin-left: 10px;margin-top: 10px;">
+                    <label>
+                        <input id="origin1" value="CENTER" name="align" type="radio"> <span style="font-weight: 100"
+                                                                                            class="language_html">Center</span>
+                        &nbsp;&nbsp;&nbsp;
+                    </label>
+                    <label>
+                        <input id="origin2" value="BOTTOM_CENTER" name="align" type="radio"> <span
+                            style="font-weight: 100" class="language_html">Bottom Center</span> &nbsp;&nbsp;&nbsp;
+                    </label>
+                    <label>
+                        <input id="origin3" value="LOCAL_AXIS_ORIGIN" name="align" type="radio"> <span
+                            class="language_html" style="font-weight: 100">Local Axis Origin</span> &nbsp;&nbsp;&nbsp;
+                    </label>
+                    <label>
+                        <input id="origin4" value="AXIS_ORIGIN" name="align" type="radio"> <span class="language_html"
+                                                                                                 style="font-weight: 100">Axis Origin</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="input-group">
+            <div id="l_cm" class="language_html input-group-addon">Control Mode</div>
+            <div>
+                <div style="margin-left: 10px;margin-top: 10px;">
+                    <label>
+                        <input name="control_mode" id="c1" type="radio" value="NEAR"> <span class="l_shi language_html"
+                                                                                            style="font-weight: 100">Near the small</span>
+                        &nbsp;&nbsp;&nbsp;
+                    </label>
+                    <label>
+                        <input name="control_mode" id="c2" type="radio" value="FAR"> <span class="l_fou language_html"
+                                                                                           style="font-weight: 100">Near small ambitious</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr style="border-color: #ccc">
+    <div style="position: relative;">
+        <div style="position: absolute; right: 10px;">
+            <button type="button" class="cancel _btn btn btn-default"><span class="language_html">Cancel</span></button>
+            <button type="button" class="ok _btn btn btn-primary"><span class="language_html">OK</span></button>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    /*
+     * 通过 RBC.Language.refresh 刷新语言值。
+     * 可以传递回调函数，刷新完语言值以后，同时回调这个函数。这个函数一般放置语言处理程序。
+     * 作为一个语言的底层处理结构。
+     * 不过还是尽量率先刷新语言值比较好。这样以后的页面中，就可以使用 RBC.Language.tr(key) 函数来替换对应的语言。
+     * */
+    RBC.Language.refresh(function (lang) {
+        $(".language_html").each(function () {
+            $(this).html(lang.tr($(this).html()))
+        })
+    });
+
+    /*
+     * 通过给 ready 发送动作，以及回调函数来完成页面初始化的处理。
+     * ready时，请确定文档已经就绪。否则操作文档可能会不行。这是js基础的内容，不再赘述。
+     * 不再使用 WebDialog.show 添加代码块来完成页面初始化的处理。
+     * 虽然依然保持show 的原来的特性，但是在使用上让show保持显示页面一个作用即可。
+     * 这样做是有原因的。
+     * */
+    RBC.GUI.DialogProxy.ready(true,function (data) {
+            // 默认值
+            values = data.default_values;
+            // 填充类型
+            fill_select('type', data.types);
+            $("#type").val(values['type']);
+            // 填充最大值
+            $("#c_max").val(values['c_max']);
+            // 填充最小值
+            $("#c_min").val(values['c_min']);
+            // 填充最大值
+            $("#max").val(values['max']);
+            // 填充最小值
+            $("#min").val(values['min']);
+            // 设置对齐点
+            var origin = values['angle'];
+            if (origin == 'CENTER') {
+                $("#origin1").prop('checked', 'checked');
+            }
+            else if (origin == 'BOTTOM_CENTER') {
+                $("#origin2").prop('checked', 'checked');
+            }
+            else if (origin == 'LOCAL_AXIS_ORIGIN') {
+                $("#origin3").prop('checked', 'checked');
+            }
+            else if (origin == 'AXIS_ORIGIN') {
+                $("#origin4").prop('checked', 'checked');
+            }
+            //
+            var cm = values['control_mode'];
+            if (cm == 'NEAR') {
+                $("#c1").prop('checked', 'checked');
+            }
+            else if (cm == 'FAR') {
+                $("#c2").prop('checked', 'checked');
+            }
+            $('.selectpicker').selectpicker('refresh');
+        });
+
+    /*
+    * 确认按钮
+    * */
+    $(".ok").on('click', function () {
+        RBC.GUI.DialogProxy.callback('cal', {
+            type: $("#type").val(),
+            c_max: $("#c_max").val(),
+            c_min: $("#c_min").val(),
+            max: $("#max").val(),
+            min: $("#min").val(),
+            align: $('input[name="align"]:checked').val(),
+            control_mode: $('input[name="control_mode"]:checked').val()
+        });
+    });
+
+    $("#getRD").click(function () {
+        RBC.GUI.DialogProxy.callback({
+            name: 'getRD',
+            data: true,
+            success: function (data) {
+                $("#c_max").val(data)
+            }
+        })
+    });
+
+    /*
+    * 取消按钮
+    * */
+    $(".cancel").on('click', function () {
+        RBC.GUI.DialogProxy.close();
+    });
+
+    /*
+    * 填充下拉框
+    * */
+    function fill_select(id, options) {
+        var len = options.length;
+        var html = '';
+        for (var i = 0; i < len; i++) {
+            if (i == 0) {
+                // 需要率先刷新RBC.Language，否则这个不可用。
+                html += '<option selected="selected" value="' + options[0] + '">' + RBC.Language.tr(options[0]) + '</option>';
+            } else {
+                html += '<option value="' + options[i] + '">' + RBC.Language.tr(options[i]) + '</option>';
+            }
+        }
+        $("#" + id).html(html);
+        $('.selectpicker').selectpicker('refresh');
+    }
+</script>
+</body>
+</html>

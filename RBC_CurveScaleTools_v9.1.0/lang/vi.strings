@@ -1,0 +1,35 @@
+RBC_CurveScaleTools<==>RBC_CurveScaleTools
+Curve Scale<==>Thang đường cong
+OK<==>Ok
+Cancel<==>Hủy bỏ
+Near small ambitious<==>Gần địa danh Small đầy tham vọng
+Near the small<==>Gần The Small
+Axis Origin<==>Trục xuất xứ
+Local Axis Origin<==>Nguồn gốc trục địa phương
+Bottom Center<==>Bottom Center
+Center<==>Trung tâm
+Align Origin<==>Align nguồn gốc
+MIN<==>Phút
+MAX<==>Max
+Type<==>Loại
+Control Mode<==>Chế độ kiểm soát
+Crest distance<==>Crest distance
+Trough distance<==>Trough distance
+plance select components or groups!!!<==>plance chọn các thành phần hoặc nhóm!!!
+plance select edges cpoints or curves!!!<==>plance chọn góc cpoints hoặc Curves!!!
+Please input control parameters!<==>Hãy nhập các thông số kiểm soát!
+Sets the parameter above the maximum control range. Does the recommended value apply?<==>Đặt tham số trên phạm vi kiểm soát tối đa. Giá trị được đề nghị áp dụng không?
+MOVE_Z<==>MOVE_Z
+MOVE_Y<==>MOVE_Y
+MOVE_X<==>MOVE_X
+ROTATE_Z<==>ROTATE_Z
+ROTATE_Y<==>ROTATE_Y
+ROTATE_X<==>ROTATE_X
+SCALE_Z<==>SCALE_Z
+SCALE_Y<==>SCALE_Y
+SCALE_X<==>SCALE_X
+SCALE_XYZ<==>SCALE_XYZ
+Get the recommended distance<==>Có được những khoảng cách được đề nghị
+Random operation<==>Hoạt động ngẫu nhiên
+CurveScale Tools.<==>CurveScale công cụ.
+Random<==>Ngẫu nhiên
